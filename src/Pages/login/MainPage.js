@@ -1,8 +1,8 @@
 import React, {useEffect} from "react";
-import { Typography, Tooltip, Button, Card } from "@mui/material";
-import './login.css';
+import { Tooltip, Button } from "@mui/material";
+import './MainPage.css';
 
-function HomePage() {
+function MainPage() {
     return (
         <div>
             <div>Image:</div>
@@ -13,4 +13,4 @@ function HomePage() {
     )
 }
 
-export default HomePage;
+export default MainPage;

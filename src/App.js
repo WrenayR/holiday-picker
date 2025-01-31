@@ -1,11 +1,11 @@
 import './App.css';
 import { Typography } from '@mui/material';
-import HomePage from './Pages/login/login';
+import MainPage from './Pages/login/MainPage';
 function App() {
   return (
     <div className="App">
-            <Typography variant="h4">Holiday Destination Picker</Typography>
-      <div><HomePage/></div>
+            <Typography variant="h3">Holiday Destination Picker</Typography>
+      <div><MainPage/></div>
     </div>
   );
 }
