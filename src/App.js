@@ -5,7 +5,7 @@ import MainPage from './Pages/MainPage';
 function App() {
   return (
     <div className="App">
-      <Typography variant="h2">Holiday Destination Picker</Typography>
+      <p className='app-title'>Holiday Destination Picker</p>
       <div><MainPage/></div>
     </div>
   );

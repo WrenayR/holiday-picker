@@ -38,10 +38,12 @@ function MainPage() {
                             </CardActionArea>
                         </Card>
                     </div>
-                }       
-                <Tooltip title="Click for a location!">
-                <Button className='new-country-button' onClick={() => onClick()} size="large" color= "secondary" variant="contained">{!_.isEmpty(selectedCountry) ? 'New Location' : 'Click for a location!'}</Button>
-                </Tooltip>
+                } 
+                <div className='new-country-button'>
+                    <Tooltip title="Click for a location!">
+                    <Button onClick={() => onClick()} size="large" color= "secondary" variant="contained">{!_.isEmpty(selectedCountry) ? 'New Location' : 'Click for a location!'}</Button>
+                    </Tooltip>
+                </div>      
         </div>
         </React.Fragment>
     )
