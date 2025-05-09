@@ -1,5 +1,4 @@
 import './App.css';
-import { Typography } from '@mui/material';
 import MainPage from './Pages/MainPage';
 
 function App() {
